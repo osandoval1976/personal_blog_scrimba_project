@@ -6,98 +6,75 @@
   height: 1921px;
   position: relative;
 }
-.about-page-desktop {
-  background: #fafafa;
-  width: 1085px;
-  height: 1383px;
-  position: absolute;
-  left: 2292px;
-  top: 0px;
-  overflow: hidden;
-}
 
-.header {
+ .header {
   background: #ffffff;
-  width: 1085px;
-  height: 83px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  padding: 24px 53px 24px 53px;
+  display: flex;
+  flex-direction: row;
+  gap: 282px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
-
-.date-hero {
-  color: #ffffff;
-  text-align: left;
-  font-family: "SourceSansPro-Regular", sans-serif;
-  font-size: 15.999655723571777px;
-  font-weight: 400;
-  position: absolute;
-  left: 53px;
-  top: 370px;
-  width: 614.84px;
+.logo {
+  flex-shrink: 0;
+  width: 207px;
+  height: 34.25px;
+  position: static;
 }
-
-.preview-hero {
-  color: #ffffff;
-  text-align: left;
-  font-family: "SourceSansPro-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  left: 53px;
-  top: 451.73px;
-  width: 614.84px;
+.group-5 {
+  width: 168.19px;
+  height: 22px;
+  position: static;
 }
-
-
-.blog-title-hero {
-  color: #ffffff;
+.my-learning-journal {
+  color: #0e0e0e;
   text-align: left;
-  font-family: "SourceSansPro-Bold", sans-serif;
-  font-size: 40px;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 20.037948608398438px;
   line-height: 108.2%;
   letter-spacing: -0.03em;
   font-weight: 700;
   position: absolute;
-  left: 53px;
-  top: 399px;
-  width: 657px;
+  left: 91.81px;
+  top: 29.85px;
+  width: 168.19px;
 }
-
-.blog-image-hero {
-  background: linear-gradient(
-    to left,
-    rgba(0, 0, 0, 0.31),
-    rgba(0, 0, 0, 0.31)
-  );
-  width: 1085px;
-  height: 488px;
+.image-17 {
+  width: 3.16%;
+  height: 41.64%;
   position: absolute;
-  left: 1085px;
-  top: 83px;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(-1, 1);
+  right: 91.96%;
+  left: 4.88%;
+  bottom: 29.18%;
+  top: 29.18%;
   object-fit: cover;
 }
-
-.hero-post {
-  position: absolute;
-  inset: 0;
+.home {
+  color: #090909;
+  text-align: right;
+  font-family: "SourceSansPro-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  width: 104px;
+}
+.about-me {
+  color: #090909;
+  text-align: right;
+  font-family: "SourceSansPro-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  width: 104px;
 }
 
-.blog-title-043 {
-  color: #141414;
-  text-align: left;
-  font-family: "SourceSansPro-Bold", sans-serif;
-  font-size: 24px;
-  line-height: 108.2%;
-  font-weight: 700;
-  position: absolute;
-  left: 723px;
-  top: 902px;
-  width: 309px;
-}
 
 
 
