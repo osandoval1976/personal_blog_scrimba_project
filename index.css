@@ -46,16 +46,7 @@
   top: 29.18%;
   object-fit: cover;
 }
-.home {
-  color: #090909;
-  text-align: right;
-  font-family: "SourceSansPro-SemiBold", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  position: relative;
-  width: 104px;
-}
-.about-me {
+a {
   color: #090909;
   text-align: right;
   font-family: "SourceSansPro-SemiBold", sans-serif;
