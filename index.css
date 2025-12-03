@@ -1,60 +1,28 @@
-.desktop-design,
-.desktop-design * {
+body * {
   box-sizing: border-box;
 }
-.desktop-design {
-  height: 1921px;
-  position: relative;
+
+/* ----- TYPOGRAPHY ----- */
+h1{
+  color:rgb(12, 0, 0)
 }
 
- .header {
-  background: #ffffff;
-  padding: 24px 53px 24px 53px;
+/* ----- LINKS ----- */
+
+/* ----- LAYOUT ----- */
+.logo{
   display: flex;
-  flex-direction: row;
-  gap: 282px;
-  align-items: center;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
+  margin:0 25px;
+  bottom: 125px;
 }
+/* ----- NAVIGATION ----- */
+nav, ul, li {
+ list-style: none;
+}
+/* ----- MEDIA QUERIES ----- */
 
-.my-learning-journal {
-  color: #0e0e0e;
-  text-align: left;
-  font-family: "Roboto-Bold", sans-serif;
-  font-size: 20.037948608398438px;
-  line-height: 108.2%;
-  letter-spacing: -0.03em;
-  font-weight: 700;
-  position: absolute;
-  left: 91.81px;
-  top: 29.85px;
-  width: 168.19px;
-}
-.image-17 {
-  width: 3.16%;
-  height: 41.64%;
-  position: absolute;
-  right: 91.96%;
-  left: 4.88%;
-  bottom: 29.18%;
-  top: 29.18%;
-  object-fit: cover;
-}
-nav, ul, li, a {
-  color: #090909;
-  text-align: right;
-  font-family: "SourceSansPro-SemiBold", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  position: relative;
-  width: 104px;
-}
+
+
 
 
 
