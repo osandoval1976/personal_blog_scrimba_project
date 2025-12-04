@@ -10,16 +10,12 @@ h1{
 /* ----- LINKS ----- */
 
 /* ----- LAYOUT ----- */
-.container-two{
+.container-two, .container-three{
 display: flex;
 justify-content: center;
 }
 
-.container-three{
-display: flex;
-justify-content: center;
 
-}
 .logo{
   display: flex;
   margin-left:1.5625em;
