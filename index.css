@@ -10,7 +10,11 @@ h1{
 /* ----- LINKS ----- */
 
 /* ----- LAYOUT ----- */
-.container-two, 
+.container-two{
+  display: flex;
+justify-content: center;
+}
+
 .container-three{
 display: flex;
 justify-content: center;
