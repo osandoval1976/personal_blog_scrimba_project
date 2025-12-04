@@ -12,12 +12,28 @@ h1{
 /* ----- LAYOUT ----- */
 .logo{
   display: flex;
-  margin:0 25px;
-  bottom: 125px;
+  margin-left:1.5625em;
+  margin-top: 1.5625em;
+}
+.my-learning-journal{
+  display: flex;
+  margin-left: 2.1875em;
+   margin-top: 1.5625em
+}
+
+.blog-image-hero.png{
+  background-attachment: fixed;
+  
+}
+.date-hero{
+display: flex;
+
 }
 /* ----- NAVIGATION ----- */
 nav, ul, li {
+  display: flex;
  list-style: none;
+
 }
 /* ----- MEDIA QUERIES ----- */
 
