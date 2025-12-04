@@ -12,8 +12,9 @@ h1{
 /* ----- LAYOUT ----- */
 .container-two,
 .container-three{
-display: flex;
-justify-content: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 
