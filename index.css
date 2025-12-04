@@ -10,7 +10,7 @@ h1{
 /* ----- LINKS ----- */
 
 /* ----- LAYOUT ----- */
-.section-container{
+.section-two, .section-thrid{
     display:flex;
     justify-content:center;
 }
