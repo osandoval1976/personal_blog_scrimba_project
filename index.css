@@ -32,7 +32,9 @@ span{
 /* ----- LAYOUT ----- */
 
 
-.container{
+header, 
+section, 
+footer{
     width: 90%;
     max-width: 768px;
     margin: 0 1em;
