@@ -81,7 +81,9 @@ display: flex;
 /* ----- MEDIA QUERIES ----- */
 
 @media (min-width: 480px) {
-    
+    header, section, footer{
+      display: flex;
+    }
 }
 
 @media (max-width: 767px) {
