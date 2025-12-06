@@ -31,13 +31,12 @@ span{
 
 /* ----- LAYOUT ----- */
 
-header, section footer{
-  padding: 1.25em 0;
-}
+
 .container{
     width: 90%;
     max-width: 768px;
-    margin: 0 auto;
+    margin: 0 1em;
+   padding: 0.5em 0.5em;
 }
 
 
