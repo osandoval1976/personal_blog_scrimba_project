@@ -35,22 +35,12 @@ header, section footer{
   padding: 1.25em 0;
 }
 .container{
-  
     width: 90%;
     max-width: 768px;
     margin: 0 auto;
 }
 
 
-.container-two, 
-.container-three{
- margin: 1em 2em;
-}
-
-.blog-image{
-  display: block;
-  
-}
 .logo{
   display: flex;
   margin-left:1.5625em;
