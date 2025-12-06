@@ -25,9 +25,10 @@ span{
 
 .date-hero, .title-hero,
 .p-hero{
-font-size: large;
+
 position: absolute;
-justify-content: center;
+justify-content: left;
+
 bottom: 0.5em;
 
 }
@@ -46,14 +47,19 @@ bottom: 0.5em;
   
  
 }
+.container-one{
+color:whitesmoke;
+display: flex;
 
+
+}
 .container-two, .container-three
 {
  margin-top: 1em;
  padding: 0.5em  0.5em;
  
 }
-img{
+.blog-image{
   display: flex;
   
 }
@@ -70,23 +76,21 @@ img{
 
 .blog-image-hero.png{
   width: 100%;
-  background-attachment: fixed;
+  background-attachment: cover;
   
 }
-.container-one{
-color:whitesmoke;
-display: flex;
 
-
-}
 .footer{
-  
-  
-  background-color: black;
+ 
+ align-content: center;
+ background-color: black;
+ width: 100%;
+ border: 2px solid yellow;
+ margin: auto;
 }
 .my-learning-journal, 
 .copyright{
-  display: block;
+ display: block;
   text-align: center;
   color: white;
 }
