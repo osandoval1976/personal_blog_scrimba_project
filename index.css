@@ -58,7 +58,10 @@ footer{
   background-attachment: cover;
   
 }
-
+img{
+  max-width:100%;
+  height:auto;
+}
 .footer{
  
  align-content: center;
