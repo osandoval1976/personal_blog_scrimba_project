@@ -60,7 +60,7 @@ align-items:center;
   line-height:1.5;
   position:absolute;
   align-items:left;
-  margin-top: 320px;
+  margin-top: 520px;
   margin-right: 480px;
   margin-left: 50px;
 }
@@ -83,9 +83,9 @@ img{
   color: white;
 }
 /* ----- NAVIGATION ----- */
-nav, ul, li {
+ul, li {
  list-style: none;
- align-content:space-between;
+  margin: 0 2em;
 }
 /* ----- MEDIA QUERIES ----- */
 
