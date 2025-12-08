@@ -68,20 +68,18 @@ img{
   max-width:100%;
   height:auto;
 }
-.footer{
- 
- align-content: center;
+footer{
+ display:block;
+ justify-content:center;
  background-color: black;
- width: 100%;
- border: 2px solid yellow;
- margin: auto;
+ margin: 0 auto;
 }
+
 .my-learning-journal, 
 .copyright{
- display: block;
-  text-align: center;
   color: white;
 }
+
 /* ----- NAVIGATION ----- */
 ul, li {
  list-style: none;
