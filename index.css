@@ -53,16 +53,19 @@ display:flex;
 align-items:center;
   
 }
-
 .cover{
   display:block;
   color: white;
   line-height:1.5;
   position:absolute;
-  align-items:left;
-  margin-top: 520px;
-  margin-right: 480px;
+  margin-top: 620px;
+  margin-right:960px;
   margin-left: 50px;
+  padding:0 12px;
+}
+
+.title-hero{
+  color:white;
 }
 img{
   max-width:100%;
