@@ -42,20 +42,15 @@ footer{
 }
 
 
-.logo{
+.ct{
   display: flex;
-  margin-left:1.5625em;
-  margin-top: 1.5625em;
-}
-.learning-journal{
-  display: flex;
-  margin-left: 2.1875em;
-   margin-top: 1.5625em
+  padding: 1em 1em;
+  
 }
 
-.blog-image-hero.png{
-  width: 100%;
-  background-attachment: cover;
+.menu{
+  margin:0 5em;
+  align-content:space-evenly;
   
 }
 img{
