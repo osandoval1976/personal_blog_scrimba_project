@@ -42,20 +42,16 @@ footer{
 }
 
 
-
 .ct{
-  display: flex;
-  justify-content: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  display:flex;
+  margin: 1em auto;
+ 
   
 }
-
 .menu{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  padding-right: 1em;
+display:flex;
+align-items:center;
+  
 }
 img{
   max-width:100%;
