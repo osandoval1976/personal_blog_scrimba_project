@@ -45,7 +45,7 @@ footer{
 .ct{
   display:flex;
   margin: 1em auto;
- 
+  background-image: url(images/blog-image-hero0.png)
   
 }
 .menu{
