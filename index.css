@@ -45,9 +45,10 @@ footer{
 .ct{
   display:flex;
   margin: 1em auto;
-  background-image: url(images/blog-image-hero0.png)
+  
   
 }
+
 .menu{
 display:flex;
 align-items:center;
@@ -64,6 +65,9 @@ align-items:center;
   padding:0 12px;
 }
 
+.container-one{
+  background-image: url(images/blog-image-hero0.png)
+}
 .title-hero{
   color:white;
 }
