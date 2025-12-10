@@ -97,7 +97,7 @@ img{
 }
 .container-three,
 .container-two{
-  margin: 0 1em;
+  margin: 0 3em;
   align-items: center;
 }
 footer{
@@ -125,27 +125,43 @@ footer{
 
 /* ----- NAVIGATION ----- */
 ul, li {
- list-style: none;
-  margin: 0 2em;
+ list-style-type: none;
+ display:flex;
+ justify-content:flex-end;
+ margin-left:7em;
+  
+  
 }
 /* ----- MEDIA QUERIES ----- */
 
 @media (min-width: 768px) {
-   header, section, footer, .cover{
-         display: flex;
-         
-       }
-       
-   
-}
-@media (max-width: 468px) {
-    header, section, footer{
-      display: block;
-     
-    }
+   header, section, footer
+         {
+      display: flex;
+      font-size:1em;
+      
+     } 
+  .ct{
+    
+    display:inline-flex;
+    align-items:center;
+  }
   .cover{
     display:flex;
   }
+}
+
+@media (max-width: 468px) {
+    .ct{
+      display: flex;
+      font-size:0.3em;
+      margin:0 auto;
+      padding: 0.5em 0.5em;
+    }
+   .cover{
+     display:flex;
+   }
+  
 }
 
 
