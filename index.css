@@ -54,7 +54,7 @@ align-items:center;
 .cover{
  display:flex;
  position: relative;
- 
+ margin:1em 0;
 }
 
 
@@ -90,8 +90,10 @@ img{
 }
 
 .image-hero{
-  width: 1200px;
+  width: 800px;
   height: 600px;
+
+ 
 }
 .container-three,
 .container-two{
