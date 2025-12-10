@@ -54,18 +54,17 @@ align-items:center;
 .cover{
  display:flex;
  position: relative;
- padding-bottom: 0.5em;
+ 
 }
 
 
 .date-hero{
-  
- color:white;
+  color:white;
   margin-right: 100px;
   margin-left: 25px;
   position: absolute;
-  margin-top: 825px;
-  line-height: 2.5;
+  margin-top: 405px;
+  line-height: .5;
 }
 
 
@@ -74,15 +73,15 @@ align-items:center;
   margin-right: 100px;
   margin-left: 25px;
   position: absolute;
-  margin-top: 870px;
+  margin-top: 425px;
   line-height: 0.5;
 }
 .p-hero{
  color:white;
-  margin-right: 100px;
+  margin-right: 170px;
   margin-left:25px;
   position: absolute;
-  margin-top: 900px;
+  margin-top: 455px;
   line-height: 1.0;
 }
 img{
@@ -91,7 +90,8 @@ img{
 }
 
 .image-hero{
-  background-image: cover;
+  width: 1200px;
+  height: 600px;
 }
 .container-three,
 .container-two{
@@ -128,19 +128,21 @@ ul, li {
 }
 /* ----- MEDIA QUERIES ----- */
 
-@media (min-width: 468px) {
+@media (max-width: 468px) {
     header, section, footer{
-      display: flex;
+      display: block;
      
     }
 }
 
 
 @media (min-width: 768px) {
+   header, section, footer{
+         display: flex;
+         margin: 2em 0;
+       }
+       
    
-   .cover{
-    position: fixed;
-   }
 }
 
 
