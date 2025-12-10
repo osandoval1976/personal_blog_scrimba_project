@@ -139,7 +139,7 @@ ul, li {
 @media (min-width: 768px) {
    header, section, footer{
          display: flex;
-         margin: 2em 0;
+         
        }
        
    
