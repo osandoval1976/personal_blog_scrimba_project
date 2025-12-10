@@ -131,7 +131,7 @@ ul, li {
 /* ----- MEDIA QUERIES ----- */
 
 @media (min-width: 768px) {
-   header, section, footer{
+   header, section, footer, .cover{
          display: flex;
          
        }
@@ -143,7 +143,12 @@ ul, li {
       display: block;
      
     }
+  .cover{
+    display:flex;
+  }
 }
+
+
 
 
 
