@@ -33,7 +33,7 @@ span{
 header, 
 section, 
 footer{
-    max-width: 768px;
+    max-width: 800px;
     margin: 0 auto;
    
 }
@@ -41,20 +41,20 @@ footer{
 
 .ct{
   display:flex;
-  margin: 1em auto;
+  margin: 0.5em auto;
   
   
 }
 
 .menu{
-display:flex;
+display:block;
 align-items:center;
-  
+ 
 }
 .cover{
  display:flex;
  position: relative;
- margin:1em 0;
+ margin:1em auto;
 }
 
 
