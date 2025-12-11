@@ -63,8 +63,8 @@ align-items:center;
   margin-right: 100px;
   margin-left: 25px;
   position: absolute;
-  margin-top: 405px;
-  line-height: .5;
+  margin-top: 23.46em;
+  line-height: 0.5em;
 }
 
 
@@ -73,17 +73,18 @@ align-items:center;
   margin-right: 100px;
   margin-left: 25px;
   position: absolute;
-  margin-top: 425px;
-  line-height: 0.5;
+  margin-top: 12.95em;
+  line-height: 0.5em;
 }
 .p-hero{
  color:white;
   margin-right: 170px;
   margin-left:25px;
   position: absolute;
-  margin-top: 455px;
-  line-height: 1.0;
+  margin-top: 27.93em;
+  line-height: 1.0em;
 }
+
 img{
   max-width: 100%;
   height: auto;
@@ -101,11 +102,10 @@ img{
   align-items: center;
 }
 footer{
- display:flex;
+  
  justify-content:center;
  background-color: black;
  margin: 2em auto;
- 
 }
 
 .my-learning-journal, 
@@ -153,16 +153,24 @@ ul, li {
 
 @media (max-width: 468px) {
     .ct{
-      display: flex;
+      display: inline-flex;
       font-size:0.3em;
-      margin:0 auto;
-      padding: 0.5em 0.5em;
+      margin-right:1em;
     }
-   .cover{
-     display:flex;
+
+    ul, li{
+      font-size:1em;
+    }
+   .date-hero{
+    margin-top: 21.565em;
+   }
+
+   .title-hero{
+
+   }
    }
   
-}
+
 
 
 
