@@ -146,8 +146,11 @@ ul, li {
     }
 
    .cover-1{
-    color: blue;
-    margin-bottom: 1rem;
+    display: inline;
+    top:0;
+    margin-top: 32em;
+   
+    
    } 
    }
   
