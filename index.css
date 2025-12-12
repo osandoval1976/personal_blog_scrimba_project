@@ -142,16 +142,46 @@ ul, li {
   }
 }
 
+
+/* ----- MEDIA QUERIES ----- */
+
+@media (min-width: 48rem) {
+   header, section, footer
+         {
+      display: flex;
+      font-size:1em;
+      
+     } 
+  .ct{
+    
+    display:inline-flex;
+    max-width:100%;
+    height:auto;
+    align-items:center;
+    
+  }
+   
+  .cover{
+    display:flex;
+  }
+}
+
 @media (max-width: 29.25rem) {
    .header, section, footer{
      display:block;
-     margin:1.5rem 2rem;
+     margin:1.5rem auto;
      font-size:0.5rem;
      height:auto;
      width:100%;
      
    }
-      
+    h1{
+      font-size:1.2rem;
+    }  
+   p, span{
+     font-size:0.5rem;
+   }
+  
     .image-hero{
       height:50%;
       width:auto;
@@ -166,20 +196,14 @@ ul, li {
       position:absolute;
       margin-left:-40em;
       margin-right:1rem;
+      margin-top:15rem;
       line-height:1rem;
     }
-   .date-hero{
-   margin-top:5rem;  
-       
-   }
-   .title-hero{
-  
-     margin-top: -5rem;
-     margin-right:-7rem;
-   } 
+   
+     
    .p-hero{
      margin-top: -0.5rem;
-     margin-right:-5rem;
+     
    }
    }
 
