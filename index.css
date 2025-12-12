@@ -54,36 +54,23 @@ align-items:center;
 .cover{
  
  position: relative;
- margin:1em auto;
+ margin:1rem auto;
 }
 
 
-.date-hero{
+.cover-1 {
   color:white;
   margin-right: 100px;
   margin-left: 25px;
   position: absolute;
-  margin-top: 23.46em;
-  line-height: 0.5em;
+  margin-top: 20.46rem;
+  line-height: 1rem;
 }
-
 
 .title-hero{
-  color:white;
-  margin-right: 100px;
-  margin-left: 25px;
-  position: absolute;
-  margin-top: 12.95em;
-  line-height: 0.5em;
+  color: white;
 }
-.p-hero{
- color:white;
-  margin-right: 170px;
-  margin-left:25px;
-  position: absolute;
-  margin-top: 27.93em;
-  line-height: 1.0em;
-}
+
 
 img{
   max-width: 100%;
@@ -152,22 +139,16 @@ ul, li {
 }
 
 @media (max-width: 468px) {
-    .ct{
+   .ct{
       display: inline-flex;
-      font-size:0.3em;
-      margin-right:1em;
+      font-size:0.3rem;
+      margin:0 1em;
     }
 
-    ul, li{
-      font-size:1em;
-    }
-   .date-hero{
-    margin-top: 21.565em;
-   }
-
-   .title-hero{
-
-   }
+   .cover-1{
+    color: blue;
+    margin-bottom: 1rem;
+   } 
    }
   
 
