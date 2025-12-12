@@ -142,29 +142,45 @@ ul, li {
   }
 }
 
-@media (mi-width: 29.25rem) {
-   .ct{
-      display: inline-flex
-      font-size:0.3rem;
-      margin:0 0.5rem;
+@media (max-width: 29.25rem) {
+   .header, section, footer{
+     display:block;
+     margin:1.5rem 2rem;
+     font-size:0.5rem;
+     height:auto;
+     width:100%;
+     
+   }
+      
+    .image-hero{
+      height:50%;
+      width:auto;
     }
 
-   .cover-1{
-    display: inline;
-     position:absolute;
-    top:0;
-    margin:0 2rem;
-   
-    
-   } 
+    .cover-1{
+      height:auto;
+      width:100%;
+      color:white;
+      font-weight:bold;
+      display:inline;
+      position:absolute;
+      margin-left:-40em;
+      margin-right:1rem;
+      line-height:1rem;
+    }
+   .date-hero{
+   margin-top:5rem;  
+       
    }
+   .title-hero{
   
-
-
-
-
-
-
-
+     margin-top: -5rem;
+     margin-right:-7rem;
+   } 
+   .p-hero{
+     margin-top: -0.5rem;
+     margin-right:-5rem;
+   }
+   }
 
 
