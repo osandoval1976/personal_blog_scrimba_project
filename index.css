@@ -175,6 +175,17 @@ ul, li {
      width:100%;
      
    }
+
+  .ct{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    max-width:100%;
+    height:auto;
+    font-size:0.5rem;
+    
+  }
     h1{
       font-size:1.2rem;
     }  
